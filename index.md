@@ -143,3 +143,18 @@ python3 run.py <directory_with_stripped_binaries>
 # Dataset
 
 You can download the complete dataset featured in the paper from [Zenodo](https://doi.org/10.5281/zenodo.7039858)
+
+# Citation
+
+```
+@misc{https://doi.org/10.48550/arxiv.2209.06694,
+  doi = {10.48550/ARXIV.2209.06694},
+  url = {https://arxiv.org/abs/2209.06694},
+  author = {Singhal, Vidush and Pillai, Akul Abhilash and Saumya, Charitha and Kulkarni, Milind and Machiry, Aravind},
+  keywords = {Software Engineering (cs.SE), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Cornucopia: A Framework for Feedback Guided Generation of Binaries},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
