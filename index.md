@@ -12,7 +12,7 @@ Our evaluation of four popular binary analysis tools angr, Ghidra, IDA Pro, and 
 
 # A Docker Image for Cornucopia
 
-This is a docker image that will build Cornucopia with all the correct dependencies installed. 
+[This](https://zenodo.org/record/7039858/files/Cornucopia-main.zip?download=1) is a docker image that will build Cornucopia with all the correct dependencies installed. 
 
 To build the image execute the following command in the main directory
 ```
@@ -140,4 +140,6 @@ python3 run.py <directory_with_stripped_binaries>
 - dumps of stdout and stderr can be found in the in the `crashes` directory
 
 
-You can download the dataset featured in the paper from [Zenodo](https://doi.org/10.5281/zenodo.7039858)
+# Dataset
+
+You can download the complete dataset featured in the paper from [Zenodo](https://doi.org/10.5281/zenodo.7039858)
