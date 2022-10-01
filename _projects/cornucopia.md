@@ -21,6 +21,20 @@ We were able to generate 309K binaries across four architectures (x86, x64, ARM,
 
 All the binaries in the dataset are unstripped (i.e., has debug symbols)
 
+## Citation
+
+If you use our dataset, please cite our work:
+
+```
+@inproceedings{cornucopiaase,
+  title={Cornucopia: A Framework for Feedback Guided Generation of Binaries},
+  author={Singhal, Vidush and Pillai, Akul Abhilash  and Saumya, Charitha and Kulkarni, Milind and Machiry, Aravind},
+  booktitle={2022 37th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  year={2022},
+  organization={IEEE}
+}
+```
+
 
 Our evaluation of four popular binary analysis tools angr, Ghidra, IDA Pro, and radare2, using these binaries, revealed various issues with these tools.
 
@@ -161,15 +175,3 @@ python3 run.py <directory_with_stripped_binaries>
 ## Dataset
 
 You can download the complete dataset featured in the paper from [Zenodo](https://doi.org/10.5281/zenodo.7039858)
-
-## Citation
-
-```
-@inproceedings{cornucopiaase,
-  title={Cornucopia: A Framework for Feedback Guided Generation of Binaries},
-  author={Singhal, Vidush and Pillai, Akul Abhilash  and Saumya, Charitha and Kulkarni, Milind and Machiry, Aravind},
-  booktitle={2022 37th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
-  year={2022},
-  organization={IEEE}
-}
-```
