@@ -22,7 +22,7 @@ Jump to [Faculty](#faulty), [Researchers](#Researchers).
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-8 clearfix">
   <!--<img src="{{ site.url }}{{ site.baseurl }}/assets/img/memberpics/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>Email: <{{ member.email }}></i>
@@ -76,7 +76,7 @@ Jump to [Faculty](#faulty), [Researchers](#Researchers).
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-8 clearfix">
   <!--<img src="{{ site.url }}{{ site.baseurl }}/assets/img/memberpics/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>Email: <{{ member.email }}></i>
