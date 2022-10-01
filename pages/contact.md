@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: "Contacts"
+permalink: /contacts/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
 ---
