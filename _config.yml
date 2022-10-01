@@ -4,7 +4,7 @@ url: "https://binarygeneration.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: "Binary Generation Project" # site's title
-description: "A Framework for Feedback Guided Generation of Binaries" # used by search engines
+description: "Techniques to generate binary datasets" # used by search engines
 avatar: assets/img/bingen.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
