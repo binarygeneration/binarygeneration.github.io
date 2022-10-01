@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: contact
 title: "Team"
 subtitle: "(Humans of the project)"
 permalink: /contacts/
