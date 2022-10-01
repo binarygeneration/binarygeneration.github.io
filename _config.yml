@@ -43,7 +43,7 @@ comments:
 
 # PORTFOLIO
 collections:
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:name
 
