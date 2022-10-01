@@ -25,7 +25,9 @@ layout: default
         <h1> {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>"}} </h1>
     </div>
 
-    <section class="post-content">
+    <article {% if page.feature-img %}class="feature-image"{% endif %}>
+
+      <section class="post-content">
       {% if page.bootstrap %}
       <div class="bootstrap-iso">
       {% endif %}
@@ -34,5 +36,7 @@ layout: default
       </div>
       {% endif %}
       </section>
+
+    </article>
 
 </div>

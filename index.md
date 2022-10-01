@@ -10,7 +10,9 @@ valuation dataset for all binary analysis tasks, e.g., type inference, function 
 
 Our techniques have created the following binary datasets:
 
-### [Cornucopia dataset](./projects/cornucopia)
+### Cornucopia dataset
+Cornucopia is our first approach where we use feedback guided techniques to generate a large number of semantically-equivalent binaries for a given program.
+You can access the dataset [here](./projects/cornucopia).
 
 ## Current Projects
 

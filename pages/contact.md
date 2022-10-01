@@ -23,9 +23,9 @@ Jump to [Faculty](#faulty), [Researchers](#Researchers).
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/memberpics/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <!--<img src="{{ site.url }}{{ site.baseurl }}/assets/img/memberpics/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <i>{{ member.info }}<br>Email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
 
 {% if member.number_educ == 1 %}
@@ -77,9 +77,9 @@ Jump to [Faculty](#faulty), [Researchers](#Researchers).
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/memberpics/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <!--<img src="{{ site.url }}{{ site.baseurl }}/assets/img/memberpics/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />-->
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <i>{{ member.info }}<br>Email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
 
 {% if member.number_educ == 1 %}
