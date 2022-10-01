@@ -7,6 +7,9 @@ feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Contacts]
 ---
 
+Here are the wonderful people working on this project.
+
+
 Jump to [Faculty](#faulty), [Researchers](#Researchers).
 
 ## Researchers
@@ -20,7 +23,7 @@ Jump to [Faculty](#faulty), [Researchers](#Researchers).
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/memberpics/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/memberpics/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
@@ -74,7 +77,7 @@ Jump to [Faculty](#faulty), [Researchers](#Researchers).
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/memberpics/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/memberpics/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
